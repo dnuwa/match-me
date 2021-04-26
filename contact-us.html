@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <link rel="stylesheet" href="./styles/cutom-support-styles.css">
+
+  <title>Match Me</title>
+</head>
+
+<body>
+  <nav id="navbar-example2" class="navbar fixed-top navbar-light grey-bg-01">
+    <div class="logo-wrapper">
+      <img src="images/white-label-match-me.png" alt="logo">
+    </div>
+    <ul class="nav nav-pills ml-auto mobi-hide">
+      <li class="nav-item nav-item-wrapper">
+        <a class="text-decoration-none text-secondary" href="messages.html">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item nav-item-wrapper">
+        <i class="fa fa-bell-o" aria-hidden="true" data-container="body" data-toggle="popover"
+          data-placement="bottom"></i>
+      </li>
+      <li class="nav-item">
+        <div class="nav-link nav-item-wrapper">
+          <img src="images/user-d.png" alt="user-avatar">
+          <p>Scott</p>
+          <i class="fa fa-caret-down text-secondary" aria-hidden="true" data-container="body"
+            data-toggle="profilepopover"></i>
+        </div>
+      </li>
+      <li class="nav-item nav-item-wrapper">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="">
+
+    <div class="container bg-light p-0 mt-102px">
+      <div class="font-weight-bold bg-secondary ">
+        <h3 class="p-2">Contact us</h1>
+      </div>
+      <div class="row m-0">
+        <!-- <div class="col-sm-12 col-md-6 col-lg-4 p-0">
+          <div class="Row m-0">
+            <label class="font-weight-bold m-3">Text Us</label>
+            <button class="btn-sm btn-success w-25 border border-light m-3"> Text Us </button>
+          </div>
+          <div class="Row m-0 p-3">
+            Hours: 4AM - 10PM PT, & days a week
+          </div>
+          <div class="Row m-0 p-3">
+            <h4 class="font-weight-bold">Phone</h4>
+            <label class="font-weight-bold"><U>800-Starbuc (800-782-7282)</U></label>
+            <div>Hours: 4AM - 10PM PT, & days a week</div>
+          </div>
+          <div class="Row m-0 p-3">
+            <h4 class="font-weight-bold">Holiday Closures</h4>
+            <label>Our Customer Contact Center will be clossed to observe the following US Holidays:</label>
+            <div>
+              <ul class="list-unstyled">
+                <li class="">New Years Day</li>
+                <li class="">Memorail Day</li>
+                <li class="">Independence Day</li>
+                <li class="">Labor Day</li>
+                <li class="">Thanksgiving</li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="col-sm-12 col-md-6 col-lg-8 p-0"> -->
+        <div class="col-12 p-0">
+          <form class="border border-secondary p-2 m-2">
+            <div class="row m-0 border-bottom border-info">
+              <label class="font-weight-bold m-3">Email us</label>
+            </div>
+            <div class="form-group row m-0 pb-3 mt-3">
+              <label for="staticEmail" class="col-sm-2 col-form-label"><strong>Name*</strong></label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" value="">
+              </div>
+            </div>
+            <div class="form-group row m-0 pb-3">
+              <label for="staticEmail" class="col-sm-2 col-form-label"><strong>Email*</strong></label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" value="">
+              </div>
+            </div>
+            <div class="form-group row m-0 pb-3">
+              <label for="staticEmail" class="col-sm-2 col-form-label"><strong>Subject*</strong></label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" value="">
+              </div>
+            </div>
+            <div class="form-group row m-0 pb-3">
+              <label for="staticEmail" class="col-sm-2 col-form-label"><strong>Message*</strong></label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+            </div>
+            <div class="form-group m-0 pb-3">
+              <label for="staticEmail" class="col-sm-2 col-form-label"><strong>Captcha*</strong></label>
+              <div class="g-recaptcha brochure__form__captcha m-3" data-sitekey="YOUR SITE KEY"></div>
+            </div>
+
+            <button type="submit" class="btn-sm btn-primary border border-light m-3">Send Email</button>
+          </form>
+        </div>
+        <!-- </div> -->
+      </div>
+
+      <div id="popoverContent" class="d-none">
+        <div class="d-flex border-bottom p-2">
+          <img src="images/user-d.png" alt="user-avatar" class="rounded-circle serach-area-img">
+          <div class="bg-light" id="custom-search-input">
+            <div class="p-0">
+              <span class="input-group-btn">
+                <i class="fa fa-search p-1 text-secondary"></i>
+              </span>
+              <input type="text" class="" placeholder="Search" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column p-0">
+          <div class="d-flex justify-content-between border-bottom p-2 new-active">
+            <div>
+              <i class="fa fa-circle text-primary xs-font"></i>
+              <img src="images/linkedin.png" alt="user-avatar" class="rounded-circle serach-area-img">
+              <small>Match Me Notification</small>
+            </div>
+            <div class="d-flex flex-column">
+              <small>9h</small>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between border-bottom p-2">
+            <div>
+              <i class="fa fa-circle text-light xs-font"></i>
+              <img src="images/user-b.png" alt="user-avatar" class="rounded-circle serach-area-img">
+              <small>Attendee threshold notification</small>
+            </div>
+            <div class="d-flex flex-column">
+              <small>9h</small>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between border-bottom p-2">
+            <div>
+              <i class="fa fa-circle text-light xs-font"></i>
+              <img src="images/user-a.png" alt="user-avatar" class="rounded-circle serach-area-img">
+              <small>Exhibitor threshold notification</small>
+            </div>
+            <div class="d-flex flex-column">
+              <small>2d</small>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between border-bottom p-2 new-active">
+            <div class="d-flex">
+              <i class="fa fa-circle text-primary xs-font m-auto"></i>
+              <img src="images/user-c.png" alt="user-avatar" class="rounded-circle serach-area-img">
+              <div class="w-75">
+                <small><strong>jeniffer</strong> commented on <strong>yen's</strong> post</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column">
+              <small>9h</small>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between border-bottom p-2 new-active">
+            <div class="d-flex">
+              <i class="fa fa-circle text-primary xs-font m-auto"></i>
+              <img src="images/user-c.png" alt="user-avatar" class="rounded-circle serach-area-img">
+              <div class="w-75">
+                <small><strong>jeniffer</strong> commented on <strong>Dev's</strong> post</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column">
+              <small>9h</small>
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="d-none" id="profilepopoverContent">
+        <div class="nav-profile">
+          <a href="profile.html" class="d-flex text-decoration-none px-4 py-2"><i
+              class="fa fa-lg fa-user text-secondary m-auto pr-2"></i>Profile</a>
+          <a href="#" class="d-flex px-4 py-2 text-decoration-none"><i
+              class="fa fa-sign-out text-secondary m-auto pr-2"></i>Logout</a>
+        </div>
+      </div>
+
+      <!--custom scripts -->
+      <script type="text/javascript" src="./js/sidenav.js"></script>
+      <!--jQuery and Bootstrap Bundle (includes Popper) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+      <script>
+        $(function () {
+          $('[data-toggle="popover"]').popover({
+            container: 'body',
+            title: '',
+            html: true,
+            placement: 'bottom',
+            sanitize: false,
+            content: function () {
+              return $("#popoverContent").html();
+            }
+          });
+        })
+      </script>
+
+      <script>
+        $(function () {
+          $('[data-toggle="profilepopover"]').popover({
+            container: 'body',
+            title: '',
+            html: true,
+            placement: 'bottom',
+            sanitize: false,
+            content: function () {
+              return $("#profilepopoverContent").html();
+            }
+          });
+        })
+      </script>
+</body>
+
+</html>

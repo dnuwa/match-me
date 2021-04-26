@@ -1,0 +1,262 @@
+body{
+  background-color: #ecf0f5;
+}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+  /* transition: 0.5s; */
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #1b1b1b;
+  display: block;
+  transition: 0.3s;
+}
+
+.btn-link:active {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.sidebarbtn {
+  font-size: 14px;
+  font-weight: 500;
+  width: 264px !important;
+  margin: auto;
+}
+
+.sidebarbtn {
+  color: #1b1b1b !important;
+  font-weight: bolder !important;
+  background-color: #ffff;
+  text-align: center;
+}
+
+.sidebarbtn .fa {
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+.sidebarbtn:focus {
+  box-shadow: none !important;
+}
+
+.sidebarcard {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.sidebar-card-header {
+  border: none !important;
+  padding: 8px 0;
+  background-color: #f4f4f4;
+}
+
+.sidebar-list-group-item {
+  border: transparent !important;
+  padding: 8px 28px;
+  background-color: #f8f8f8;
+}
+
+.sidebar-list-group-item:hover {
+  background-color: #f4f4f4;
+  border-right: solid 4px #ec1c24 !important;
+}
+
+.sidebar-list-group-item a {
+  font-size: 12px !important;
+  color: #1b1b1b;
+  padding: 0;
+}
+
+.sidebar-list-group-item .fa {
+  padding: 0 8px;
+  font-weight: bolder;
+  color: #1b1b1b;
+  font-size: 16px;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #1b1b1b;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  margin-left: 300px;
+  /* background-color: #ecf0f5; */
+}
+
+.logo-wrapper {
+  text-align: center;
+  background-color: #ffff;
+  border-bottom: solid 1px #f4f4f4;
+}
+
+.logo-wrapper img {
+  width: 152px;
+  height: 65px;
+  margin: auto;
+}
+
+.navbar {
+  height: 72px;
+  background-color: #ffff !important;
+  border-bottom: solid 1px #f4f4f4;
+}
+
+.nav-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-item-wrapper img {
+  border-radius: 50%;
+  height: 32px;
+}
+
+.nav-item-wrapper p {
+  padding: 8px;
+  margin: 0 !important;
+  color: #1b1b1b;
+}
+
+.nav-item-wrapper .fa {
+  padding: 8px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.list-group-list {
+  background-color: #f8f8f8;
+}
+
+.org-wrapper {
+  display: flex;
+  margin: 92px 8px 16px;
+  background-color: #ffffff;
+}
+
+.org-wrapper img {
+  width: 25%;
+  padding: 4px;
+}
+
+.org-btn {
+  text-align: left;
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-shadow: none !important;
+}
+
+.org-btn p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.org-btn h4 {
+  margin: 0;
+}
+
+.btn-toggle:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-links a {
+  font-size: 12px;
+}
+
+.main{
+  margin-top: 72px !important;
+}
+
+.mt-102px{
+  margin-top: 102px !important;
+}
+
+.serach-area-img{
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+}
+
+#custom-search-input{
+  padding: 3px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#custom-search-input input{
+  border: 0;
+  box-shadow: none;
+}
+
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+
+}
+
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+
+}
+
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+  .mobi-hide{
+    display: none;
+  }
+}

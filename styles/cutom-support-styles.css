@@ -1,0 +1,157 @@
+@import url("sidenav.css");
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.btn-primary:focus{
+  box-shadow: none;
+}
+
+.title-container h2 {
+  font-weight: bolder;
+  color: #1b1b1b;
+}
+
+.sub-title-container {
+  background-color: #f4f4f4;
+  padding: 8px;
+}
+
+.sub-title {
+  font-weight: 600;
+}
+
+.table-overflow {
+  overflow-x: scroll;
+}
+
+.table-header {
+  background-color: #dff0d8;
+}
+
+.submit-btn {
+  background-color: #0eb7a7;
+  color: #f4f4f4;
+  border: transparent;
+}
+
+.submit-btn:hover {
+  color: #f4f4f4;
+  background-color: #0eb7a7;
+  border: transparent;
+}
+
+.submit-btn:active{
+  color: #f4f4f4;
+  background-color: #0eb7a7;
+  border: transparent;
+}
+
+.submit-btn:focus{
+  color: #f4f4f4;
+  background-color: #0eb7a7;
+  border: transparent;
+}
+
+.rounded-right-btn{
+  border-radius: 0 2px 2px 0;
+}
+
+.border-active:focus{
+  border: 1px solid red;
+}
+
+.add-btn {
+  width: 100px;
+  margin-right: 2px;
+}
+
+.btn-del {
+  background-color: rgb(255, 100, 83);
+  margin: 2px !important;
+  border: transparent !important;
+}
+
+.btn-view {
+  background-color: rgb(83, 218, 255);
+  border: transparent !important;
+  margin: 2px !important;
+}
+
+.btn-update {
+  background-color: rgb(255, 195, 83);
+  border: transparent !important;
+  margin: 2px !important;
+}
+
+.tiny-font {
+  font-size: 10px;
+}
+
+.xs-font {
+  font-size: 6px;
+}
+
+.grey-bg{
+  background-color: #f4f4f4;
+}
+
+.grey-bg-01{
+  background-color: #d4d4d4;
+}
+
+.dash > .fa, .dash > .iconify{
+  font-size: 50px;
+  color: #d4d4d4;
+}
+
+.more-btn:hover{
+  cursor: pointer;
+}
+
+.more-btn .fa{
+  margin: auto 0;
+  padding: 0 4px;
+}
+
+.new-active{
+  background-color: #ecf0f5;
+}
+
+.popover-body{
+  padding: 0 !important;
+}
+
+.nav-item:hover{
+  cursor: pointer;
+}
+
+.nav-profile a:hover{
+  background-color: #ecf0f5;
+}
+
+.img-size{
+  width: 36px;
+  height: 36px;
+}
+
+.right-scroll{
+  overflow-y: scroll;
+  height: 65vh;
+}
+
+/* .right-scroll::-webkit-scrollbar {
+  display: none;
+} */
+
+.msg-right-scroll{
+  overflow-y: scroll;
+  height: 35vh;
+}
+
+::-webkit-scrollbar {
+  height: 4px;              /* height of horizontal scrollbar ← You're missing this */
+  width: 1px;               /* width of vertical scrollbar */
+  /* border: 1px solid #d5d5d5; */
+}
